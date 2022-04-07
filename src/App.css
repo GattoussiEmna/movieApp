@@ -1,0 +1,150 @@
+.App {
+  text-align: center;
+  background :rgb(216, 216, 216)
+}
+
+
+
+.App-header {
+  background-color: #282c34;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 20px;
+  cursor: pointer;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+}
+
+.search {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+
+input[type="submit"] {
+  padding: 5px;
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
+  width: 80px;
+  margin-left: 5px;
+  cursor: pointer;
+  border-radius: 2em ;
+}
+
+
+input[type="submit"]:hover {
+  background-color: #282c34;
+  color: antiquewhite;
+
+}
+
+
+.search > input[type="text"]{
+  width: 30%;
+  min-width: 170px;
+  
+}
+
+.App-intro {
+  font-size: large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  color: black;
+  margin-left: 40px;
+}
+
+
+.MyList{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  
+}
+
+.MyCard{
+  margin: 50px;
+  
+  
+}
+img{
+  border-radius: 2em;
+}
+
+.title {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 30px;
+}
+
+
+body{
+  background-color: darkgrey;
+}
+
+.search{
+  font-family: Georgia, 'Times New Roman', Times, serif !important;
+}
+
+.addMovie {
+  border-radius: 2em 4em !important;
+  background-color: cornflowerblue !important;
+  color: black !important;
+  border: 1px solid black !important;
+  font-family: Georgia, 'Times New Roman', Times, serif !important;
+}
+
+.Modal{
+  font-family: Georgia, 'Times New Roman', Times, serif !important;
+  color: darkcyan;
+}
+
+.titlee{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.year{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.ratingg{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.urll{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.movieDetails{
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-style: italic;
+
+}
+
+.movieTitle{
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-style: italic;
+}
+
+.btnn{
+  margin-top: 20px;
+   border-radius: 2em 4em;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   background-color: cornflowerblue;
+   color: black;
+   border: 1px solid black;
+
+
+
+}
+
+
+
